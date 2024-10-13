@@ -92,8 +92,8 @@ if (canvas.getContext) {
     const ctx = canvas.getContext("2d");
 
     //SIN MODIFICAR las dos primeras lineas del codigo para ajustar el rectangulo
-    roundedRect(ctx, 12, 12, 150, 150, 15);
-    roundedRect(ctx, 19, 19, 150, 150, 9);
+    roundedRect(ctx, 12, 12, 185, 170, 15); //Cambios
+    roundedRect(ctx, 19, 19, 171, 155, 9); //Cambios
     roundedRect(ctx, 53, 53, 49, 33, 10);
     roundedRect(ctx, 53, 119, 49, 16, 6);
     roundedRect(ctx, 135, 53, 49, 33, 10);
